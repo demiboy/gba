@@ -3,7 +3,8 @@ module.exports = {
         {
             name: 'description',
             message: "What's the description of your project?",
-            default: 'No description provided.',
+            type: 'text',
+            initial: 'No description provided.',
         },
     ],
 };
